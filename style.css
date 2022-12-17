@@ -1,0 +1,155 @@
+@font-face {
+	font-family: 'Bodoni';
+	src: url('BodoniClassic-CyrillicRoman.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+ body{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	height: 100vh;
+	font-family: Bodoni;
+}
+.theath{
+	background: url("img/bg.jpg") center 0/100% no-repeat;
+	height: 100%;
+}
+.theath__top{
+	display: flex;
+	align-items: center;
+	max-width: 1460px;
+	margin: 0 auto;
+	padding-top: 40px;
+	justify-content: space-between;
+}
+.theath__logo{
+	width: 385px;
+}
+.theath__logo img {
+	width: 100%;
+} 
+.theath__right{
+	display: flex;
+	align-items: center;
+	font-size: 19px;
+	color: #fff;
+	margin-right: 180px;
+	
+}
+.main-theath__slider{
+	max-width: 1540px;
+	margin: 310px auto 0;
+
+}
+.theath__right img{
+	width: 230px;
+}
+.theath__text{
+	margin-right: 19px;
+}
+.swiper-slide{
+	/* display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center; */
+	
+}
+.swiper-slide img{
+	width: 60%;
+}
+.slide-main-theath{
+	text-align: center;
+	position: relative;
+	background: url("img/shadow.png") 50% 0 /100% no-repeat;
+}
+.slide-main-theath_1{
+}
+.slide-main-theath_2{
+	left: -22px;
+}
+.slide-main-theath_3{
+	background-position: 50% -10%;
+	top: -5px;
+	left: -12px;
+}
+.slide-main-theath_4{
+	top: -17px;
+	left: -23px;
+}
+.slide-main-theath_5{
+	background-position: 50% 12%;
+	top: -35px;
+	left: -29px;
+}
+.slide-main-theath__tag{
+	margin-top: 30px;
+	background: url("img/tag.png") 0 50%/cover no-repeat;
+	font-size: 23px;
+	min-height: 107px;
+	color: #000000;
+}
+.slide-main-theath__tag_1{
+	margin-top: 40px;
+
+}
+.slide-main-theath__tag_2{
+	/* margin-top: 36px; */
+
+}
+.slide-main-theath__tag_3{
+	margin-top: 67px;
+
+}
+.slide-main-theath__tag_4{
+	margin-top: 53px;
+
+}
+.slide-main-theath__tag_5{
+	margin-top: 108px;
+
+}
+.slide-main-theath__top{
+	position: relative;
+	top: 15px;
+}
+.slide-main-theath__bottom{
+	position: relative;
+	top: 15px;
+	font-size: 16px;
+}
+.theath__bottom{
+	text-align: center;
+	margin-top: 15px;
+}
+.theath__btn{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 5px 15px;
+	border-radius: 7px;
+	border: 1px solid #fff;
+}
+.swiper-button-prev{
+	left: 5%;
+	padding: 25px;
+	background: url("img/arrow.svg") left center/100% no-repeat;
+}
+.swiper-button-next{
+	padding: 25px;
+	transform: rotate(180deg);
+	background: url("img/arrow.svg") left center/100% no-repeat;
+	right: 5%;
+}
+.swiper-button-prev::after{font-size: 0;
+}
+.swiper-button-next::after{font-size: 0;
+}
+.main-theath{
+	position: relative;
+}
